@@ -6,7 +6,7 @@ pipeline{
                 echo 'Building'
             }
         }
-        stage('Teat'){
+        stage('Tefilafihalat'){
             steps{
                 echo 'Test'
             }
