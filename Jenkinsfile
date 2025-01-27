@@ -1,12 +1,16 @@
 pipeline{
-    agent any
+    agent {
+        node {
+            label 'AGENT-1'
+        }
+    }
     stages{
         stage('Building'){
             steps{
                 echo 'Building'
             }
         }
-        stage('Tefilafihalat'){
+        stage('CHARAN'){
             steps{
                 echo 'Test'
             }
